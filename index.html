@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+   
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+
+                <div class="dropdown">
+                    <a class=" logo fa fa-user "  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                     
+                    </a>
+                  
+                    <ul class="dropdown-menu " style="background-color: rgb(191, 5, 238);">
+                      <li><a class="dropdown-item" href="#aarudra@gmail.com" title="email"> <i class="fa-solid fa-paper-plane"> </i> aarudra03@gmail.com</a></li>
+                      <li><a class="dropdown-item" href="#"> <i class="fa-brands fa-github"> </i>github id</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-brands fa-linkedin"> </i>linkdin id</a></li>
+                    </ul>
+                  </div>
+
+
+  <!-- <i class=" logo fa fa-user" aria-hidden="true" ></i> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-regular fa-circle-xmark ank" onclick="closemenu()"></i> -->
+                    <i class="fa fa-arrow-up-right-from-square"  onclick="closemenu()"></i>
+                </ul>
+              
+            </nav>
+            <div class="header-text">
+                <p>FullStack Java Developer</p>
+                <h1>Hi I am <span>Adarsh Mishra</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------About Section ----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col-1">
+                    <img src="images/img8.jpg">
+                </div> -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Myself <b>Adarsh Mishra</b> with  Experience of  HTML, CSS , JS, JSP, Java , Spring Boot,MySql.
+                        I have a deep passion for creating robust, scalable, and user-friendly solutions. With a solid
+                        foundation in both front-end and back-end technologies, I thrive on turning complex problems
+                        into elegant, efficient, an intuitive software.
+                        
+                        <br>
+                      
+                        ✨Languages : - <span style=" color: rgb(191, 5, 238);"> Java, JavaScript </span>
+                        <br>
+                        ✨Web Technology : - <span style=" color: rgb(191, 5, 238);">HTML , CSS , JS , JSP</span>
+                        <br>
+                        ✨Frameworks : -  <span style=" color: rgb(191, 5, 238);">Spring Boot , Hibernate , Bootstrap</span>
+                        <br>
+                        ✨Database : - <span style=" color: rgb(191, 5, 238);">MongoDB, MySQL</span>
+                        <br>
+                        ✨Version Control : - <span style=" color: rgb(191, 5, 238);">Git & GitHub</span>
+                        <br>
+                        <!-- ✨ Other : -<span style=" color: rgb(191, 5, 238);">Strong Knowledge of DSA</span>
+                        <br> -->
+               
+                        I'm always open to new opportunities, collaborations, and discussions. Whether you're looking to
+                        discuss tech trends, explore potential collaborations, or just connect, feel free to reach out.
+                        Let's build something great together!
+                    </p>
+
+                    <div class="  cs container-fluid ">
+                        <div class="row">
+                            <div class="tab-titles" >
+                                <div class="tab-links active-link" style="padding: 3px;" onclick="opentab('obj')">Career Obj</div>
+                                <div class="tab-links active-link" style="padding: 3px;"  onclick="opentab('skills')">Skills</div>
+                                <div class="tab-links" style="padding: 3px;"  onclick="opentab('education')">Education</div>
+                                <div class="tab-links" style="padding: 3px;"  onclick="opentab('projects')">Projects</div>
+                              
+                              
+                            </div>
+                        </div>
+                
+                       
+                        <div class="tab-contents active-tab" id="obj">
+                            <p>
+                                My objective is to be an integral part of a forward-thinking company, leveraging my experience to drive impactful results, faster innovation, and continue my professional development. Aiming for a role that encourages continuous learning, growth, and the opportunity to make a significant impact on organizational objectives. I am poised to take my career to new heights by embracing challenging roles that demand innovation, creativity, and technical excellence</p>
+                        </div>
+                    
+                        <div class="tab-contents " id="skills">
+                            <ul>
+                                <li><span><b>Programming Langauge</b></span><br>Java,JavaScript<br> Data Structure & Algorithms using Java
+                                </li>
+                                <li><span><b>FrontEnd technologies &
+                                    Frameworks</b></span><br>HTML,CSS,JS,JSP ,Bootstrap</li>
+                                <li><span><b>Backend technologies</b></span><br>Java ,JS,Spring Boot</li>
+                                <li><span><b>Database technologies</b></span><br>MongoDb,MySQL</li>
+                                <li><span><b>Version Control System</b></span><br>Git & GitHub</li>
+                                <li><span><b>Soft Skills</b></span><br>
+                                    MongoDb, AWS, JS, Leading Team
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                               
+                                    <li><span>2019-2022</span><br>BA  from Deen Dayal Upadhyaya University,
+                                        Bhopal<br> Marks - 71.3% </li>
+                                <li><span>2018</span><br>Intermediate from Jubilee Inter College, Gorakhpur ,
+                                    Uttar Pradesh<br> Marks - 56%</li>
+                                <li><span>2016</span><br>Matriculation from St. Theresa High School, Gorakhpur, 
+                                    Uttar Pradesh<br> Marks - 82%</li>
+                            </ul>
+                        </div>
+                    
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span><b>Personal Portfolio</b></span><br>A portfolio website is a unique way to showcase your
+                                    work and let others know about yourself. It’s like an evergreen platform for your
+                                    projects, case studies, and information about you. In addition, it’s one of the best
+                                    ways to express your personality, experience, and capabilities.<br/>
+                                     <b>HTML , CSS ,
+                                        JavaScript</b></li>
+                                <li><span><b>Flight Reservation App</b></span><br> The Flight Reservation App is a robust and user-friendly platform developed using Java technologies and modern frameworks. It employs Spring Boot for rapid application development, Hibernate JPA for seamless database interaction, and RESTful APIs for flexible communication between the frontend and backend. The application utilizes MySQL as the database backend for storing flight details, user information, and reservation data. <br/>
+                                    <b>Java,SpringBoot,Mysql, HTML,CSS JavaScript</b>
+                                </li>
+                                <li><span><b>My Blog App</b></span><br>The Blog App is a dynamic and user-friendly platform developed with Java technologies and modern frameworks. The application offers full CRUD (Create, Read, Update, Delete) functionality, enabling users to manage blog posts effortlessly. The frontend, designed with HTML, CSS, and JavaScript, ensures an engaging and responsive user interface. <br/> <b> Java, Sprinboot,Mysql, HTML, CSS, Javascript,</b></li>
+
+                                <li><span><b>To-Do List</b></span><br>The To-Do List is a dynamic and user-friendly platform developed using Java technologies and modern frameworks. This application provides comprehensive CRUD (Create, Read, Update, Delete) functionality, empowering users to effortlessly manage their to-do items. The frontend, crafted with HTML, CSS, and JavaScript, ensures an engaging and responsive user interface. <br/>
+                                    <b>java,Springboot, Mysql, HTML, CSS, Javascript</b></li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>(Fresher)</span><br>(Fresher )- A dedicated and results-oriented Java Full Stack Developer with a strong foundation in Java programming and a keen interest in full-stack development, Can work well in under pressure and make the best of any situation <br/>
+                                    <b>Training and skills enhancement:</b>
+                                    <br/>
+                                    <p>
+                                        Completed Java Developer Course  (6 month)Completed a 6-month Java Developer Course, focused on intensive training to enhance and refine skills
+
+                                    </p>
+                                </li>
+                            </ul>
+                        </div> 
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Services------------------------ -->
+
+    <div class="  main container-fluid  ">
+        <h1 class="sub-title">Project Details</h1>
+        <div class="row" id="services">
+          
+
+
+          
+          <div class="col-sm-12 col-md-6 col-lg-3" >
+            <div class="card" >
+              <div class="card-body"style=" height: 300px;  ">
+                <h5 class="card-title " style="font-weight: bold;">Personal Portfolio</h5>
+               
+                <p style=" max-height:150px; overflow:auto">Personal Portfolio</span><br>A portfolio website is a unique way to showcase your
+                    work and let others know about yourself. It’s like an evergreen platform for your
+                    projects, case studies, and information about you. In addition, it’s one of the best
+                    ways to express your personality, experience, and capabilities.<br><b>Technology Stack : HTML |
+                        CSS | JavaScript</b> <br><b>Tools - VSCODE</b></p>
+                        <a href="#header"><button type="button"
+                            class="btn btn-primary">View Project</button></a>
+       
+              </div>
+            </div>
+            </div>
+
+
+
+
+
+              
+          <div class="col-sm-12 col-md-6 col-lg-3" >
+            <div class="card">
+              <div class="card-body"style=" height: 300px;  ">
+                <h5 class="card-title " style="font-weight: bold;">Flight Reservation </h5>
+            
+              <p style=" max-height:150px; overflow:auto"> The Flight Reservation App is a robust and user-friendly platform developed using Java technologies and modern frameworks. It employs Spring Boot for rapid application development, Hibernate JPA for seamless database interaction, and RESTful APIs for flexible communication between the frontend and backend <br> <b>Technology Stack - JAVA | SPRING BOOT | API | HTML | CSS | JavaScript |
+                    MYSQL <br> Tools - SPRING BOOT | VSCODE</b></p>
+                    <a href="https://github.com/adarsh03108/flight_reservation" target="_blank"><button type="button"
+                        class="btn btn-primary">View Project</button></a>
+       
+              </div>
+            </div>
+            </div>
+     
+
+
+          <div class="col-sm-12 col-md-6 col-lg-3" >
+            <div class="card" >
+              <div class="card-body"style=" height: 300px;  ">
+                <h5 class="card-title " style="font-weight: bold;">My Blog  App</h5>
+              
+                <p style=" max-height:150px; overflow:auto">The Blog App is a dynamic and user-friendly platform developed with Java technologies and modern frameworks. The application offers full CRUD (Create, Read, Update, Delete) functionality, enabling users to manage blog posts effortlessly. The frontend, designed with HTML, CSS, and JavaScript, ensures an engaging and responsive user interface.  <br><b>Technology Stack - JAVA | SPRING BOOT | API | HTML | CSS | JavaScript |
+                        MYSQL<br>
+                        Tools - SPRING BOOT | VSCODE</b></p>
+                        <a href="https://github.com/adarsh03108/Blog_App" target="_blank"><button type="button"
+                            class="btn btn-primary">View Project</button></a>
+       
+              </div>
+            </div>
+            </div>
+
+
+
+
+
+
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <div class="card-body"style=" height: 300px;  ">
+                <h5 class="card-title " style="font-weight: bold;">Task Tracker(TO-DO List)</h5>
+               
+                <p style=" max-height:150px; overflow:auto">The To-Do List is a dynamic and user-friendly platform developed using Java technologies and modern frameworks. This application provides comprehensive CRUD (Create, Read, Update, Delete) functionality, empowering users to effortlessly manage their to-do items<br><b>Technology
+                      Stack : JAVA | SPRING BOOT | API | HTML | CSS | JavaScript |
+                      MYSQL</b><br><b>Tools - SPRING BOOT | VSCODE</b></p>
+                 <a href="#" target="_blank"><button type="button"
+                      class="btn btn-primary">View Project</button></a>
+       
+              </div>
+            </div>
+            </div>
+
+
+        
+
+          
+        </div>
+      </div>
+
+   
+
+    <!-- -------------------------------Portfolio------------------------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <li><span><b>(Fresher):-</b></span><br> A dedicated and results-oriented Java Full Stack Developer with a strong foundation in Java programming and a keen interest in full-stack development, Can work well in under pressure and make the best of any situation <br/>
+                 <br/>
+                    <li> <b>Training and skills enhancement:-</b></li>
+                    <br/>
+                    <p>
+                        Completed Java Developer Course  (6 month)
+                        <br/>Completed a 6-month Java Developer Course, focused on intensive training to enhance and refine skills
+                    </p>
+               
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ------------------------Contact------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Let's contact each other.</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> aarudra03@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 7827362648</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/adarsh03108"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/annkit_kr/"><iconify-icon
+                                icon="simple-icons:leetcode"></iconify-icon></a>
+                        <a href="https://www.linkedin.com/in/adarsh-mishra-0954762b5/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/adarsh_krs.pdf" download class="btn btn2" style="color: rgb(245, 3, 245);">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="tel" name="Number" placeholder="Your Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Adarsh Mishra Made by me.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.left = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.left = "-200px";
+        }
+    </script>
+
+    <!-- -------------------Navbar Fixed-------------------------------- -->
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwA1oggsegq76TtRKYkqWXml92u45jhQWPqrzjK0CVBHJw4a9gyeiYYt25hcMd-3ZZm/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
